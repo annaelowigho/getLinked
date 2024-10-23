@@ -9,9 +9,9 @@ const JudgingCriteria = () => {
           <img src="/assets/star pu.png" alt="" className="absolute w-[13px] h-[17px] top-5 left-[50%] 
           md:w-[30px] md:h-[36px] md:left-[-50%]"/>
           <img src="/assets/Ellipse 1.png" alt="" className="hidden md:block absolute w-[134px] h-[134px] 
-          right-[130px] top-[80px]"/>
-          <img src="/assets/woman-with-chart.png" alt="" className=" w-[332px] h-[275px]
-          md-w-[710px] md:h-[587px] object-fill relative"/>
+          left-[100px] top-[50px]"/>
+          <img src="/assets/woman-with-chart.png" alt="" className="mt-[74px] w-[332px] h-auto md:w-[710px] lg:w-auto object-fill 
+          lg:object-cover relative"/>
           <img src="/assets/star transparent.png" alt="" className="absolute w-[12px] h-[14px] top-[60%] left-[55%] "/>
         </div>
         <div className="flex flex-col items-center justify-center relative

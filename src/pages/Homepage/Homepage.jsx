@@ -2,6 +2,7 @@ import React from "react";
 import BigIdea from "../SubSections/BigIdea";
 import Rules from "../SubSections/Rules";
 import JudgingCriteria from "../SubSections/JudgingCriteria";
+import Faqs from "../SubSections/Faqs";
 
 const Homepage = () => {
   return (
@@ -100,6 +101,7 @@ const Homepage = () => {
       <BigIdea />
       <Rules />
       <JudgingCriteria />
+      <Faqs />
     </>
   );
 };
