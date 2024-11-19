@@ -3,6 +3,7 @@ import BigIdea from "../SubSections/BigIdea";
 import Rules from "../SubSections/Rules";
 import JudgingCriteria from "../SubSections/JudgingCriteria";
 import Faqs from "../SubSections/Faqs";
+import Timeline from "../SubSections/Timeline";
 
 const Homepage = () => {
   return (
@@ -102,6 +103,7 @@ const Homepage = () => {
       <Rules />
       <JudgingCriteria />
       <Faqs />
+      <Timeline />
     </>
   );
 };
