@@ -38,15 +38,15 @@ const Homepage = () => {
               <img
                 src="/assets/Creative-bulb.png"
                 alt=""
-                className="w-[18px] h-[36px] md:w-[53px] md:h-[73px] absolute left-[279px] md:left-[600px] right-[99px] top-[-18px] md:top-[75px]"
+                className="w-[18px] h-[36px] md:w-[53px] md:h-[73px] absolute left-[279px] md:left-[660px] right-[99px] top-[-18px] md:top-[60px]"
               />
-              <h4 className="text-white text-[32px] md:text-[80px] font-bold md:w-[597px] md:h-[98px]">
+              <h4 className="text-white text-[32px] md:text-[80px] font-bold md:w-[722px] md:h-[98px]">
                 getlinked Tech
               </h4>
             </div>
             <div className="flex md:mb-7 items-center justify-center md:justify-start">
               <div>
-                <h4 className="text-white text-[32px] md:text-[80px] font-bold md:w-[569px] md:h-[98px]">
+                <h4 className="text-white text-[32px] md:text-[80px] font-bold md:w-[600px] md:h-[98px]">
                   Hackathon <span className="text-[#D434FE]">1.0</span>
                 </h4>
               </div>

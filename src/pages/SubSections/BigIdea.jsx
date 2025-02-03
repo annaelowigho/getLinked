@@ -22,11 +22,11 @@ const BigIdea = () => {
           className="w-[19.456px] h-[22.818px] absolute top-[260.77px] md:w-[49.43px] md:h-[57.974px] md:right-[773.05px] md:top-[489.84px]"
         />
         <div className="mt-[40px] flex items-center md:items-start flex-col mb-[50px] md:mt-[193px]">
-          <h4 className="w-[249px] h-[54px] text-[20px] font-bold text-white text-center md:text-start md:text-[32px] md:w-[398px] md:h-[86px] md:pb-[16px]">
+          <h4 className="w-[279px] h-[54px] text-[20px] font-bold text-white text-center md:text-start md:text-[32px] md:w-[430px] md:h-[86px] md:pb-[16px]">
             Introduction to getlinked{" "}
             <span className="text-[#D434FE]">tech Hackathon 1.0</span>
           </h4>
-          <p className="w-[321px] h-[107px] text-white text-[18px] text-center md:text-start pt-[9px] md:w-[535px] md:h-[165px] md:text-[14px]">
+          <p className="w-[321px] h-[107px] text-white text-[18px] text-center md:text-start pt-[20px] md:w-[535px] md:h-[165px] md:text-[14px]">
             Our tech hackathon is a melting pot of visionaries, and its purpose
             is as clear as day: to shape the future. Whether you're a coding
             genius, a design maverick, or a concept wizard, you'll have the

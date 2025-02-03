@@ -16,12 +16,12 @@ const JudgingCriteria = () => {
         </div>
         <div className="flex flex-col items-center justify-center relative
         md:items-start md:py-[78px]">
-          <h4 className="text-[20px] text-white font-bold w-[167px] h-[54px] text-center mb-[16px]
-          md:w-[200px] md:h-[86px] md:text-left md:text-[32px] md:mb-[21px] lg:w-[267px]">
+          <h4 className="text-[20px] text-white font-bold w-[180px] h-[54px] text-center mb-[16px]
+          md:w-[200px] md:h-[86px] md:text-left md:text-[32px] md:mb-[21px] lg:w-[287px]">
             Judging Criteria <span className="text-[#D434FE]">Key attributes</span>
           </h4>
           <p className="w-[299px] h-[150px] text-white text-center
-          md:text-start md:w-[533px] md:h-[75px] md:mb-[22px]">
+          md:text-start md:w-[533px] md:h-[75px] md:mb-[22px] mb-3">
             <span className="text-[#FF26B9]">Innovation and Creativity: {" "}</span>
             Evaluate the uniqueness and creativity of the solution. Consider
             whether it addresses a real-world problem in a novel way or
@@ -43,21 +43,21 @@ const JudgingCriteria = () => {
             or environmental benefits.
           </p>
           <p className="w-[313px] h-[150px] text-white text-center
-          md:text-start md:w-[533px] md:h-[75px] md:mt-[22px] md:mb-[22px]">
+          md:text-start md:w-[533px] md:h-[75px] md:mt-[22px] mb-3 md:mb-[22px]">
             <span className="text-[#FF26B9]">Technical Complexity: {" "}</span>
             Evaluate the technical sophistication of the solution. Judges would
             consider the complexity of the code, the use of advanced
             technologies or algorithms, and the scalability of the solution.
           </p>
           <p className="w-[316px] h-[170px] text-white text-center
-          md:text-start md:w-[533px] md:h-[75px] md:mb-[55px]">
+          md:text-start md:w-[533px] md:h-[75px] mb-6 md:mb-[55px]">
             <span className="text-[#FF26B9]">Adherence to Hackathon Rules: {" "}</span>
             Judges will Ensure that the team adhered to the rules and guidelines
             of the hackathon, including deadlines, use of specific technologies
             or APIs, and any other competition-specific requirements.
           </p>
           <img src="/assets/star.png" alt="" className="absolute w-[10px] h-[12px] right-[15%] mt-[282%] md:mt-0"/>
-        <button className="w-[96.35px] h-[31.346px] bg-gradient-to-r from-[#903AFF] to-[#D434FE] rounded-[4px] 
+        <button className="mt-3 w-[120px] h-[40px] bg-gradient-to-r from-[#D434FE] to-[#903AFF] rounded-[4px] 
         text-white mb-[70px] md:w-[172px] md:h-[53px]">
           Read More
         </button>

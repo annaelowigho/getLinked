@@ -13,7 +13,7 @@ const Faqs = () => {
         <img src="/assets/star pu.png" alt="" className="absolute w-[18px] h-[20px] left-[60px] top-[50px]"/>
         <div className="flex flex-col items-center lg:items-start justify-center lg:justify-start pt-[60px] mb-[86px] px-[49px] lg:pl-[219px] lg:pr-[101px]">
           <h4 className="text-[20px] lg:text-[32px] font-bold lg:font-extrabold text-white leading-[26.6px] lg:leading-[42.56px] w-[158px]
-          lg:w-[253px] h-[54px] lg:h-[86px] text-center lg:text-start mb-[6px] md:mb-[16px]">
+          lg:w-[260px] h-[54px] lg:h-[86px] text-center lg:text-start mb-[6px] md:mb-[16px]">
             Frequently Ask <span className="text-[#D434FE]">Question</span>
           </h4>
           <p className="text-white text-center md:text-start leading-[27.5px] text-[12px] md:[14px] pb-[45.69px] md:w-[342px] md:h-[55px] md:mb-[68px]">
