@@ -6,6 +6,7 @@ import Faqs from "../SubSections/Faqs";
 import Timeline from "../SubSections/Timeline";
 import Results from "../SubSections/Results";
 import Partners from "../SubSections/Partners";
+import PrivacyPolicy from "../SubSections/PrivacyPolicy";
 
 const Homepage = () => {
   return (
@@ -108,6 +109,7 @@ const Homepage = () => {
       <Timeline />
       <Results />
       <Partners />
+      <PrivacyPolicy />
     </>
   );
 };
