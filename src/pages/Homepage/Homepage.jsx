@@ -4,6 +4,8 @@ import Rules from "../SubSections/Rules";
 import JudgingCriteria from "../SubSections/JudgingCriteria";
 import Faqs from "../SubSections/Faqs";
 import Timeline from "../SubSections/Timeline";
+import Results from "../SubSections/Results";
+import Partners from "../SubSections/Partners";
 
 const Homepage = () => {
   return (
@@ -104,6 +106,8 @@ const Homepage = () => {
       <JudgingCriteria />
       <Faqs />
       <Timeline />
+      <Results />
+      <Partners />
     </>
   );
 };

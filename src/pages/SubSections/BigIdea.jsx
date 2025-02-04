@@ -41,7 +41,7 @@ const BigIdea = () => {
           />
         </div>
       </div>
-      <hr className="mt-[180px] md:mt-[90px] bg-[#333131] border-none h-[1px]" />
+      <hr className="mt-[250px] md:mt-[90px] bg-[#333131] border-none h-[1px]" />
     </>
   );
 };

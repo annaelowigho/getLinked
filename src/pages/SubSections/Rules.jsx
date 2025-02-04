@@ -10,7 +10,7 @@ const Rules = () => {
           className="absolute md:bottom-[2px] md:right-[600px] md:w-[900px] md:h-[500px]"
         />
         <div
-          className="mt-[40px] md:mt-0 flex flex-col-reverse px-[60px] md:px-0 gap-[10px] relative
+          className="md:mt-0 flex flex-col-reverse px-[60px] md:px-0 gap-[10px] relative
       md:flex-row"
         >
           <div className="flex flex-col items-center md:items-start md:pl-[184px] md:mt-[120px]">
