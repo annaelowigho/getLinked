@@ -77,7 +77,7 @@ const Timeline = ({image, listNumber, title, description, date}) => {
         <div>
           {schedule.map((event, index) => {
             return (
-            <div className='hidden md:flex gap-20 items-end justify-center mx-12 mt-20'>
+            <div className='hidden md:flex gap-20 items-end justify-center mx-12 mt-10'>
               <div className='flex flex-col w-[511px] text-right'>
                 <p className='text-[#D434FE] text-[24px] font-bold mb-2'>{event.title}</p>
                 <p className='text-white text-[14px]'>{event.description}</p>
