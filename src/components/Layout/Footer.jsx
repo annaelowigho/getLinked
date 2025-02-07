@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <ul>
+          <ul className='flex'>
             <li>Overview</li>
             <li>Timeline</li>
             <li>FAQs</li>
