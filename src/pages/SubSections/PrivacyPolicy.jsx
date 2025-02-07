@@ -57,7 +57,6 @@ const PrivacyPolicy = () => {
               
           </div>
         </div>
-
       <hr className=" bg-[#333131] border-none h-[1px]" />
     </>
   )
