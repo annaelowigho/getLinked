@@ -16,14 +16,15 @@ const Footer = () => {
             <span className='text-white text-[12px]'>Privacy Policy</span>
           </div>
         </div>
-        <div>
-          <ul className='flex'>
+        <div className='mt-[32px]'>
+          <p className='text-[#D434FE] text-[14px] font-semibold mb-2'>Useful Links</p>
+          <ul className='flex flex-col gap-3 text-white text-[12px] mb-4'>
             <li>Overview</li>
             <li>Timeline</li>
             <li>FAQs</li>
             <li>Register</li>
           </ul>
-          <span>Follow us</span>
+          <span className='text-[#D434FE] text-[12px]'>Follow us</span>
           <div>
             
           </div>
