@@ -9,10 +9,10 @@ import { IoLocationSharp } from "react-icons/io5";
 const Footer = () => {
   return (
     <>
-      <div className='mx-[77px] my-[51px]'>
+      <div className='mx-[77px] my-[51px] md:mx-[220px] md:my-[80px] flex flex-col md:flex-row md:items-center md:justify-between'>
         <div>
           <img src="\assets\getlinked-logo.png" alt="" />
-          <p className='text-white text-[12px] leading-[20.69px] mt-[12px] w-[271px] mb-[39px]'>
+          <p className='text-white text-[12px] leading-[20.69px] mt-[12px] w-[271px] mb-[39px] md:w-[412px] md:mb-[74px]'>
             Getlinked Tech Hackathon is a technology innovation program established by a group of organizations 
             with the aim of showcasing young and talented individuals in the field of technology
           </p>
@@ -24,13 +24,13 @@ const Footer = () => {
         </div>
         <div className='mt-[32px]'>
           <p className='text-[#D434FE] text-[14px] font-semibold mb-2'>Useful Links</p>
-          <ul className='flex flex-col gap-3 text-white text-[12px] mb-4'>
+          <ul className='flex flex-col gap-3 text-white text-[12px] mb-4 md:gap-4'>
             <li>Overview</li>
             <li>Timeline</li>
             <li>FAQs</li>
             <li>Register</li>
           </ul>
-          <div className='flex gap-[16px] items-center mb-[61px]'>
+          <div className='flex gap-[16px] items-center mb-[61px] md:mb-0'>
             <span className='text-[#D434FE] text-[16px]'>Follow us</span>
             <div className='flex w-[129px] justify-between text-[24px] text-white'>
               <FaInstagram />
@@ -40,17 +40,20 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <span className='text-[#D434FE] text-[14px] font-semibold'>Contact Us</span>
-        <div className='flex text-white text-[14px] items-center gap-[16px] mt-4'>
-          <FaPhoneVolume />
-          <p>+234  6707653444</p>
+        <div>
+          <span className='text-[#D434FE] text-[14px] font-semibold'>Contact Us</span>
+          <div className='flex text-white text-[14px] items-center gap-[16px] mt-4'>
+            <FaPhoneVolume />
+            <p>+234  6707653444</p>
+          </div>
+          <div className='flex text-white items-center gap-[16px] mt-4'>
+            <IoLocationSharp className='text-[18px]'/>
+            <p className='w-[120px] text-[14px]'>27,Alara Street Yaba 100012 Lagos State</p>
+          </div>
         </div>
-        <div className='flex text-white items-center gap-[16px] mt-4'>
-          <IoLocationSharp className='text-[18px]'/>
-          <p className='w-[120px] text-[14px]'>27,Alara Street Yaba 100012 Lagos State</p>
-        </div>
-        <p className='text-[12px] text-white text-center mt-[60px]'>All rights reserved. © getlinked Ltd.</p>
       </div>
+      <p className='text-[12px] text-white text-center mt-[60px]'>All rights reserved. © getlinked Ltd.</p>
+
     </>
   )
 }
