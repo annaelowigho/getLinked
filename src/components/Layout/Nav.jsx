@@ -74,7 +74,7 @@ export default Nav;
 const NavItem = ({ title, link }) => {
   return (
     <li className="relative">
-      <Link to={link} href="">
+      <Link to={link} href="" className="cursor-pointer ">
         <span>{title}</span>
       </Link>
     </li>

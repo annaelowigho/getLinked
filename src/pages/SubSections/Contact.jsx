@@ -1,8 +1,14 @@
 import React from 'react'
+import Nav from '../../components/Layout/Nav'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+      <Nav />
+      <div>
+        
+      </div>
+    </>
   )
 }
 
